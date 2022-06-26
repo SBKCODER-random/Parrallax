@@ -25,6 +25,18 @@ function App() {
             backgroundSize: 'cover',
           }}
            />
+          <ParallaxLayer
+          offset={0.2}
+          speed={0.5}
+          >
+            <h2>Welcome to my website</h2>
+          </ParallaxLayer>
+
+          <ParallaxLayer
+            offset={3.2}
+            speed={2}>
+            <h2>Web Development is fun!</h2>
+          </ParallaxLayer>
       </Parallax>
     </div>
   )
